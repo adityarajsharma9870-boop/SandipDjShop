@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Booking</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>DJ Booking Form</h2>
+
+<form action="send.php" method="post">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<br><br>
+
+<input type="tel"
+name="phone"
+placeholder="Phone Number"
+pattern="[0-9]{10}"
+maxlength="10"
+required>
+
+<br><br>
+
+<input type="text"
+name="location"
+placeholder="Event Location"
+required>
+
+<br><br>
+
+<button class="btn">Submit Booking</button>
+
+</form>
+
+</body>
+</html>

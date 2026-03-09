@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>DJ Sandip</title>
+
+<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+    <img src="https://cdn.discordapp.com/attachments/1478261149542907977/1480638720184029346/logo.png?ex=69b067c3&is=69af1643&hm=006ba24b8cade1250a0bad7fc2d93f30eb1339132d67ddebdc678e5e6cad4d11" alt="">
+    <h1>DJ Sandip</h1>
+</div>
+
+<nav id="menu">
+
+<a href="#">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="location.html">Location</a>
+
+</nav>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+</header>
+
+
+<section class="hero">
+
+<h2>Professional DJ & DJ Design Services</h2>
+
+<p>Feel the Beat | Feel the Music</p>
+
+<button class="btn" onclick="openForm()">Book Now</button>
+
+</section>
+
+
+<!-- Booking Form -->
+
+<div id="booking">
+
+<div class="form-box">
+
+<span class="back-btn" onclick="closeForm()">← Back</span>
+
+<h2>DJ Booking Form</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input
+type="tel"
+placeholder="Phone Number"
+pattern="[0-9]{10}"
+maxlength="10"
+required>
+
+<input type="text" placeholder="Event Location" required>
+
+<button class="btn">Submit Booking</button>
+
+</form>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+<footer class="footer">
+
+<h3>Follow Us</h3>
+
+<div class="social-links">
+
+<a href="https://www.instagram.com/__sandipsharma_2/" target="_blank">Instagram</a>
+
+<a href="https://youtube.com" target="_blank">YouTube</a>
+
+</div>
+
+<p>© 2026 DJ Sandip. All Rights Reserved</p>
+
+</footer>
+<footer class="footer">
+
+<div class="footer-container">
+
+<!-- LEFT SIDE -->
+
+<div class="footer-reviews">
+
+<h3>Client Reviews</h3>
+
+<section class="reviews-section">
+
+<h2>Client Reviews</h2>
+
+<form id="reviewForm">
+
+<input type="text" id="clientName" placeholder="Your Name" required>
+
+<textarea id="clientReview" placeholder="Write your review..." required></textarea>
+
+<div class="star-rating">
+
+<span class="star" data-value="1">★</span>
+<span class="star" data-value="2">★</span>
+<span class="star" data-value="3">★</span>
+<span class="star" data-value="4">★</span>
+<span class="star" data-value="5">★</span>
+
+</div>
+
+<input type="hidden" id="ratingValue">
+
+<button type="submit">Submit Review</button>
+
+</form>
+
+<div id="reviewList">
+
+<p>⭐️⭐️⭐️⭐️⭐️ Amazing DJ service! – Rahul</p>
+
+<p>⭐️⭐️⭐️⭐️⭐️ Best DJ for wedding events – Aman</p>
+
+</div>
+
+<div class="contact-info">
+
+<h3>Contact Us</h3>
+
+<p>📞 Phone: 9876543210</p>
+
+<p>📍 Location: Ranchi, Jharkhand</p>
+          __________________
+
+</div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+
+</html>
